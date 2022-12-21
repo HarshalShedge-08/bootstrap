@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap introduction</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <div class="container ">
+
+        <div class="row bg-info">
+
+            <!-- form start  -->
+
+            <form control="" class="was-validated">
+
+                <div class="row">
+
+                    <!-- here heading -->
+
+                    <h1 class="head bg-danger text-light">Survey Form</h1>
+
+                    <!-- input type start -->
+
+                    <div class="b1 col-md-6">
+
+                        <label class="form-label" for="fname"> Full Name :</label>
+
+                        <input id="fname" class="form-control" type="text" placeholder="Enter Your Full Name" required>
+
+                        <!-- valid-invalid start -->
+
+                        <div class="invalid-feedback">
+
+                            <span>invalid-credintial</span>
+
+                        </div>
+
+                        <div class="valid-feedback">
+
+                            <span>valid-data-entered</span>
+
+                        </div>
+
+                    </div>
+
+                    <!-- input type  -->
+
+                    <div class="b2 col-md-6">
+
+                        <label class="form-label" for="email">E-mail :</label>
+
+                        <input id="email" class="form-control" type="email" placeholder="Enter Your E-mail" required>
+
+                        <!-- valid-invalid start -->
+
+                        <div class="invalid-feedback">
+
+                            <span>invalid-credintial</span>
+
+                        </div>
+
+                        <div class="valid-feedback">
+
+                            <span>valid-data-entered</span>
+
+                        </div>
+
+                    </div>
+
+                    <!-- input type -->
+
+                    <div class=" col-md-6">
+
+                        <label class="form-label" for="contact">contact No :</label>
+
+                        <input id="contact" class="form-control" type="number" min="10"
+                            placeholder="Enter Your Contact Number" required>
+
+                    </div>
+
+                    <!-- input type -->
+
+                    <div class="b3 col-md-6">
+
+                        <label class="form-label" for="dob">D.O.B :</label>
+
+                        <input id="dob" class="form-control" type="date" placeholder="Enter Your D.O.B.">
+
+                    </div>
+
+                    <!-- select option start -->
+
+
+                    <div class="b4">
+
+                        <label for="" class="form-label mt-2">Which option best describes your current role? </label>
+
+                        <select name="" class="form-select">
+
+                            <option value="" selected disabled>Select</option>
+                            <option value="Student">Student</option>
+                            <option value="Employee">Employee</option>
+                            <option value="Freasher">Freasher</option>
+                            <option value="looking For Job">looking For Job</option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- here radio start -->
+
+
+                    <div class="b5 col-md-6">
+
+                        <label class="form-check-label mt-2" for="">How likely is that you would recommend freecodeCamp
+                            to a
+                            friend? </label>
+
+                        <div class="">
+                            <input type="radio" name="select" checked>
+                            <label for="" class="form-check-label">Definitely</label>
+                        </div>
+
+                        <div class="">
+                            <input type="radio" name="select">
+                            <label for="" class="form-check-label">Maybe</label>
+                        </div>
+
+                        <div class="">
+                            <input type="radio" name="select">
+                            <label for="" class="form-check-label">Not Sure</label>
+                        </div>
+
+                    </div>
+
+                    <!-- checkbox start -->
+
+                    <div class="b7 col-md-6 mt-2">
+
+                        <label class="form-check-label" for="">Things that should be improved in the future (Check all
+                            that apply) :</label>
+
+                        <div class="">
+                            <input type="checkbox">
+                            <label for="" class="form-check-label">Front-end Projects</label>
+                        </div>
+
+                        <div class="">
+                            <input type="checkbox">
+                            <label for="" class="form-check-label">Back-end Projects</label>
+                        </div>
+
+                        <div class="">
+                            <input type="checkbox">
+                            <label for="" class="form-check-label">Data Visualization</label>
+                        </div>
+
+                    </div>
+
+                    <!-- address type start  -->
+
+                    <div class="b6 mt-3">
+
+                        <label class="form-label" for="address">Enter your address :</label>
+
+                        <textarea id="address" class="form-control" name="" id="" cols="30" rows="5">
+
+                        </textarea>
+
+                    </div>
+
+                    <!-- button start  -->
+
+                    <div class="row justify-content-center">
+
+                        <div class="col-md-2 mt-2">
+
+                            <button value="submit" class="btn btn-success">Submit</button>
+
+                            <button value="reset" class="btn btn-success">Reset</button>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
